@@ -1,0 +1,42 @@
+{
+  "name": "born-mt/azure-blob-url-generator",
+  "description": "Azure Blob SAS URL generator for Laravel and Spatie MediaLibrary",
+  "keywords": [
+    "azure",
+    "blob",
+    "sas",
+    "url"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^10.0|^11.0|^12.0",
+    "spatie/laravel-medialibrary": "^10.0|^11.0",
+    "azure-oss/storage-blob-laravel": "^1.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0|^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "BornMt\\AzureBlobUrlGenerator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "BornMT\\AzureBlobUrlGenerator\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "BornMt\\AzureBlobUrlGenerator\\UrlGeneratorServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
