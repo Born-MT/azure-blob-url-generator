@@ -1,9 +1,9 @@
 <?php
 
-namespace BornMt\AzureBlobUrlGenerator\Services;
+namespace BornMT\AzureBlobUrlGenerator\Services;
 
-use BornMt\AzureBlobUrlGenerator\Contracts\UrlGeneratorServiceInterface;
-use BornMt\AzureBlobUrlGenerator\Support\Configuration;
+use BornMT\AzureBlobUrlGenerator\Contracts\UrlGeneratorServiceInterface;
+use BornMT\AzureBlobUrlGenerator\Support\Configuration;
 use Spatie\MediaLibrary\Support\UrlGenerator\DefaultUrlGenerator;
 
 class UrlGeneratorService extends DefaultUrlGenerator implements UrlGeneratorServiceInterface

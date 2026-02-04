@@ -26,7 +26,7 @@ If you're using Laravel 11+, the service provider may be auto-discovered. Otherw
 ```php
 'providers' => [
     // ...
-    BornMt\AzureBlobUrlGenerator\UrlGeneratorServiceProvider::class,
+    BornMT\AzureBlobUrlGenerator\UrlGeneratorServiceProvider::class,
 ],
 ```
 
@@ -61,7 +61,7 @@ php artisan vendor:publish --provider="Spatie\MediaLibrary\MediaLibraryServicePr
 Then, in `config/media-library.php`, set the custom URL generator:
 
 ```php
-'url_generator' => \BornMt\AzureBlobUrlGenerator\Services\UrlGeneratorService::class,
+'url_generator' => \BornMT\AzureBlobUrlGenerator\Services\UrlGeneratorService::class,
 ```
 
 ### 3. Configure Your Filesystem

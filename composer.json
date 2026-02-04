@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "BornMt\\AzureBlobUrlGenerator\\": "src/"
+      "BornMT\\AzureBlobUrlGenerator\\": "src/"
     }
   },
   "autoload-dev": {
@@ -30,7 +30,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "BornMt\\AzureBlobUrlGenerator\\UrlGeneratorServiceProvider"
+        "BornMT\\AzureBlobUrlGenerator\\UrlGeneratorServiceProvider"
       ]
     }
   },

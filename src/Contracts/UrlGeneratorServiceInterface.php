@@ -1,6 +1,6 @@
 <?php
 
-namespace BornMt\AzureBlobUrlGenerator\Contracts;
+namespace BornMT\AzureBlobUrlGenerator\Contracts;
 
 interface UrlGeneratorServiceInterface
 {

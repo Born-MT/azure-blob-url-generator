@@ -1,6 +1,6 @@
 <?php
 
-namespace BornMt\AzureBlobUrlGenerator\Support;
+namespace BornMT\AzureBlobUrlGenerator\Support;
 
 class Configuration
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace BornMt\AzureBlobUrlGenerator;
+namespace BornMT\AzureBlobUrlGenerator;
 
 use Illuminate\Support\ServiceProvider;
-use BornMt\AzureBlobUrlGenerator\Contracts\UrlGeneratorServiceInterface;
-use BornMt\AzureBlobUrlGenerator\Services\UrlGeneratorService;
-use BornMt\AzureBlobUrlGenerator\Support\Configuration;
+use BornMT\AzureBlobUrlGenerator\Contracts\UrlGeneratorServiceInterface;
+use BornMT\AzureBlobUrlGenerator\Services\UrlGeneratorService;
+use BornMT\AzureBlobUrlGenerator\Support\Configuration;
 
 class UrlGeneratorServiceProvider extends ServiceProvider
 {
