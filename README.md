@@ -16,7 +16,7 @@ This package extends Spatie's default URL generator to produce Azure Blob Storag
 Install the package via Composer:
 
 ```bash
-composer require born-mt/azure-blob-url-generator
+composer require bornmt/azure-blob-url-generator
 ```
 
 ### Register the Service Provider

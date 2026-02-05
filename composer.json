@@ -1,5 +1,5 @@
 {
-  "name": "born-mt/azure-blob-url-generator",
+  "name": "bornmt/azure-blob-url-generator",
   "description": "Azure Blob SAS URL generator for Laravel and Spatie MediaLibrary",
   "keywords": [
     "azure",
